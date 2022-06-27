@@ -85,7 +85,7 @@ Next, edit `/etc/shadowsocks-libev/gcp.json` and populate it something like this
 ![image](https://user-images.githubusercontent.com/86168235/175832752-09fb6c03-2823-44a6-b48b-c15b2d73aa52.png)
 
 
-### Restart you Shadowsocks client and test your proxy
+### Restart your Shadowsocks client and test your proxy
 `systemctl restart shadowsocks-libev-local@gcp.service`
 
 `curl --proxy socks5://127.0.0.1:1080 https://ifconfig.me`
