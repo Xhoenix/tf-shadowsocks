@@ -1,7 +1,7 @@
 # tf-shadowsocks
 ## Deploy Shadowsocks server to GCP using Terraform
 
-First of all, a full blown tutorial on this is can accessed on my blog with the help of [this link](https://blog.jitendrapatro.me/deploying-a-shadowsocks-server-to-gcp-using-terraform/). If you want a quicker way and you already meet the prerequisites, then follow along with this README.
+First of all, a full blown tutorial on this can accessed on my blog via [this link](https://blog.jitendrapatro.me/deploying-a-shadowsocks-server-to-gcp-using-terraform/). If you want a quicker way and you already meet the prerequisites, then follow along with this README.
 
 ### Prerequisites
 1. A Google Cloud account.
@@ -45,6 +45,7 @@ First of all, a full blown tutorial on this is can accessed on my blog with the 
 
 ### Plan and apply changes to deploy Shadowsocks server to GCP
 First, check whether the correct project is set up or not.
+
 `echo $TF_VAR_project`
 
 Next, apply the configuration to deploy Shadowsocks server.
