@@ -47,8 +47,7 @@ First of all, a full blown tutorial on this is can accessed on my blog with the 
 First, check whether the correct project is set up or not.
 `echo $TF_VAR_project`
 
-Next, plan and apply.
-`terraform plan`
+Next, apply the configuration to deploy Shadowsocks server.
 
 `terraform apply`
 
