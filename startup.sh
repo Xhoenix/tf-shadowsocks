@@ -17,3 +17,6 @@ echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
 # Restart Shadowsocks server to apply changes
 /usr/sbin/service shadowsocks-libev restart
 /usr/sbin/service shadowsocks-libev enable
+
+# The SS Proxy server process sometimes stops on its own. I've added this cron job to restart it every 3hrs to make sure its keeps running.
+echo "0 */3 * * * root /usr/sbin/service shadowsocks-libev restart" > /etc/cron.d/restart_ss
