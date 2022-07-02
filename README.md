@@ -55,6 +55,7 @@ Next, apply the configuration to deploy Shadowsocks server.
 ![image](https://user-images.githubusercontent.com/86168235/175832801-cfdb2d2c-7233-4fa6-a8d6-59fa158a8cc6.png)
 
 When the deployment of server finishes, you'll be provided the IP address and the password for shadowsocks proxy server which would be hidden. To show the password use the following command:-
+
 `terraform output sss_password`
 
 ### Install Shadowsocks client on Linux
