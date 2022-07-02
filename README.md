@@ -16,7 +16,7 @@ First of all, a full blown tutorial on this can accessed on my blog via [this li
 **Note:-** The above environment variable is necessary and must be set up before doing anything else.
 
 ### Next, enable Google Compute Engine API for the project
-`gcloud services enable compute.googleapis.com`
+`gcloud services enable compute.googleapis.com cloudresourcemanager.googleapis.com`
 
 
 ### Create ssh keys in the default location, i.e ~/.ssh
